@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-transport-quic-bridge",
+    "description": "transport-quic-bridge transport plugin for Orchestra MCP.",
+    "type": "transport",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-transport-quic-bridge/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-transport-quic-bridge"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "transport-quic-bridge",
+    "extra": {
+        "plugin-id": "transport.transport-quic-bridge",
+        "provides": ["transport"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
