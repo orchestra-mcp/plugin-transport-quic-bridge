@@ -3,8 +3,8 @@ module github.com/orchestra-mcp/plugin-transport-quic-bridge
 go 1.23
 
 require (
-	github.com/orchestra-mcp/gen-go v1.0.0
-	github.com/orchestra-mcp/sdk-go v1.0.0
+	github.com/orchestra-mcp/gen-go v1.0.2
+	github.com/orchestra-mcp/sdk-go v1.0.2
 	github.com/quic-go/quic-go v0.50.0
 	google.golang.org/protobuf v1.36.11
 )
