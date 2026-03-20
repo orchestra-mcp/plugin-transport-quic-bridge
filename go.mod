@@ -14,6 +14,7 @@ require (
 	github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
+	github.com/stretchr/testify v1.11.1 // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
